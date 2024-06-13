@@ -1,0 +1,14 @@
+﻿@page "/"
+@rendermode InteractiveServer
+@using EjercicioEvaluacion1.Data
+@using Microsoft.EntityFrameworkCore
+@inject IDbContextFactory<EjercicioDbContext> DbFactory
+
+
+<PageTitle>Home</PageTitle>
+
+<EjercicioEvaluacion1.Client.Pages.Lista />
+
+@code{
+    
+}
